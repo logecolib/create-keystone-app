@@ -33,7 +33,7 @@ if (process.env.CREATE_PROJECT === 'create project') {
     const cwd = tempy.directory();
     let createKeystoneAppProcess = promisifiedExecFile(
       'node',
-      [require.resolve('./create-keystone-app/bin.js'), 'test-project'],
+      [require.resolve('./create-keystone-app-master/bin.js'), 'test-project'],
       { cwd }
     );
     createKeystoneAppProcess.child.stdout!.on('data', (chunk) => {
@@ -50,7 +50,7 @@ if (process.env.CREATE_PROJECT === 'create project') {
   });
 }
 
-let projectDir = path.join(__dirname, 'create-keystone-app', 'starter');
+let projectDir = path.join(__dirname, 'create-keystone-app-master', 'starter');
 
 // the order here is important
 // dev will initialise the database for prod

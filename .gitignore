@@ -111,3 +111,4 @@ keystone.db
 
 # IDE files
 *.sublime-*
+.vscode/settings.json

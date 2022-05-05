@@ -15,7 +15,7 @@ A field: The individual bits of data on your list, each with its own type.
 // Like the `config` function we use in keystone.ts, we use functions
 // for putting in our config so we get useful errors. With typescript,
 // we get these even before code runs.
-import { list } from '@keystone-6/core';
+import { list } from '@keystone-6-master/core';
 
 // We're using some common fields in the starter. Check out https://keystonejs.com/docs/apis/fields#fields-api
 // for the full list of fields.
@@ -25,11 +25,11 @@ import {
   password,
   timestamp,
   select,
-} from '@keystone-6/core/fields';
+} from '@keystone-6-master/core/fields';
 // The document field is a more complicated field, so it's in its own package
 // Keystone aims to have all the base field types, but you can make your own
 // custom ones.
-import { document } from '@keystone-6/fields-document';
+import { document } from '@keystone-6-master/fields-document';
 
 // We are using Typescript, and we want our types experience to be as strict as it can be.
 // By providing the Keystone generated `Lists` type to our lists object, we refine

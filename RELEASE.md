@@ -9,7 +9,7 @@ The first step uses a GitHub action updates the package versions and changelogs,
 
 ### Update Packages (automatic)
 
-This step is handled for us by the [Release GitHub Action](https://github.com/keystonejs/keystone-5/actions/workflows/release.yml).
+This step is handled for us by the [Release GitHub Action](https://github.com/logecolib/keystone-5/actions/workflows/release.yml).
 As PRs are opened against `main`, this action will open and update a PR which generates the appropriate `CHANGELOG.md` entries and `package.json` version bumps.
 The generated PR has the title "Version Packages"
 

@@ -128,7 +128,7 @@ const installDeps = async (cwd: string): Promise<'yarn' | 'npm'> => {
   - ${terminalLink('Read the docs', 'https://next.keystonejs.com')}
   - ${terminalLink(
     'Star Keystone on GitHub',
-    'https://github.com/keystonejs/keystone'
+    'https://github.com/logecolib/keystone'
   )}
 `);
 })().catch((err) => {

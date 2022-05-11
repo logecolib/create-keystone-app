@@ -1,6 +1,6 @@
 {
   "name": "create-keystone-app-master",
-  "private": true,
+  "private": false,
   "workspaces": [
     "create-keystone-app-master",
     "create-keystone-app-master/starter"
@@ -45,5 +45,5 @@
       "create-keystone-app-master"
     ]
   },
-  "version": "6.0.4"
+  "version": "6.0.5"
 }

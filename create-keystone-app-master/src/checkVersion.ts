@@ -4,7 +4,7 @@ import * as semver from 'semver';
 
 export async function checkVersion() {
   try {
-    const { version } = await getPackageJson('create-keystone-app');
+    const { version } = await getPackageJson('create-keystone-app-master');
     if (typeof version !== 'string') {
       throw new Error(
         'version from package metadata was expected to be a string but was not'
@@ -17,7 +17,7 @@ export async function checkVersion() {
     }
   } catch (err) {
     console.error(
-      'A problem occurred fetching the latest version of create-keystone-app'
+      'A problem occurred fetching the latest version of create-keystone-app-master'
     );
     console.error(err);
   }

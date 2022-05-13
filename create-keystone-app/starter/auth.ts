@@ -14,6 +14,8 @@ import { statelessSessions } from '@keystone-6/core/session';
 
 let sessionSecret = process.env.SESSION_SECRET;
 
+if(!sessionSecret) { sessionSecret = 'HbGUBzUcVC4ghjg4w4T2Dz4z7dByYCz7GTAUDwaUEEFc2WxkjuPMyqnTtZ4H3hMp'; }
+
 // Here is a best practice! It's fine to not have provided a session secret in dev,
 // however it should always be there in production.
 if (!sessionSecret) {

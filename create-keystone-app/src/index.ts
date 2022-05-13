@@ -14,7 +14,7 @@ const starterDir = path.normalize(`${__dirname}/../starter`);
 const cli = meow(
   `
 Usage
-  $ create-keystone-app [directory]
+  $ create-keystone-app-master [directory]
 `
 );
 
@@ -37,7 +37,7 @@ async function normalizeArgs(): Promise<Args> {
       type: 'input',
       name: 'directory',
       message:
-        'What directory should create-keystone-app generate your app into?',
+        'What directory should create-keystone-app-master generate your app into?',
       validate: (x) => !!x,
     }));
     process.stdout.write('\n');

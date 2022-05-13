@@ -1,6 +1,6 @@
 {
   "name": "create-keystone-app-repo",
-  "private": true,
+  "private": false,
   "workspaces": [
     "create-keystone-app",
     "create-keystone-app/starter"

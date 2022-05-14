@@ -1,6 +1,6 @@
 {
   "name": "keystone-app-master",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": false,
   "scripts": {
     "dev": "keystone dev",

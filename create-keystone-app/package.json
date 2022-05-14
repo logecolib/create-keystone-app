@@ -1,6 +1,6 @@
 {
   "name": "create-keystone-app-master",
-  "version": "6.0.15",
+  "version": "6.0.16",
   "main": "dist/create-keystone-app-master.cjs.js",
   "files": [
     "dist",

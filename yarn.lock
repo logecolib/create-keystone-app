@@ -4342,9 +4342,12 @@
 
 "create-keystone-app-master@file:/home/lib/ownCloud/Projects/logecolib/create-keystone-app/create-keystone-app":
   "resolved" "file:create-keystone-app"
-  "version" "6.0.9"
+  "version" "6.0.14"
   dependencies:
     "@babel/runtime" "^7.17.2"
+    "@preconstruct/cli" "^2.1.5"
+    "@preconstruct/hook" "^0.4.0"
+    "@preconstruct/next" "^4.0.0"
     "chalk" "^4.1.2"
     "enquirer" "^2.3.6"
     "execa" "^5.1.1"
@@ -6998,7 +7001,7 @@
 
 "keystone-app-master@file:/home/lib/ownCloud/Projects/logecolib/create-keystone-app/create-keystone-app/starter":
   "resolved" "file:create-keystone-app/starter"
-  "version" "1.0.1"
+  "version" "1.0.6"
   dependencies:
     "@keystone-6/auth" "*"
     "@keystone-6/core" "*"

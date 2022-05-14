@@ -1,6 +1,6 @@
 {
   "name": "create-keystone-app-master",
-  "version": "6.0.12",
+  "version": "6.0.15",
   "main": "dist/create-keystone-app-master.cjs.js",
   "files": [
     "dist",
@@ -14,7 +14,7 @@
     "@babel/runtime": "^7.17.2",
     "@preconstruct/cli": "^2.1.5",
     "@preconstruct/hook": "^0.4.0",
-    "@preconstruct/next": "^4.0.0",    
+    "@preconstruct/next": "^4.0.0",
     "chalk": "^4.1.2",
     "enquirer": "^2.3.6",
     "execa": "^5.1.1",

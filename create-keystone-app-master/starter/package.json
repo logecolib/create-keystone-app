@@ -1,6 +1,6 @@
 {
   "name": "keystone-app-master",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "private": false,
   "scripts": {
     "dev": "keystone dev",
@@ -16,10 +16,5 @@
   },
   "engines": {
     "node": "^14.15 || ^16.13"
-  },
-  "devDependencies": {
-    "@preconstruct/cli": "^2.1.5",
-    "@preconstruct/hook": "^0.4.0",
-    "@preconstruct/next": "^4.0.0"
   }
 }

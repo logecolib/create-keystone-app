@@ -1,0 +1,25 @@
+{
+  "name": "keystone-app-master",
+  "version": "1.0.11",
+  "private": false,
+  "scripts": {
+    "dev": "keystone dev",
+    "start": "keystone start",
+    "build": "keystone build",
+    "postinstall": "keystone postinstall"
+  },
+  "dependencies": {
+    "@keystone-6/auth": "*",
+    "@keystone-6/core": "*",
+    "@keystone-6/fields-document": "*",
+    "typescript": "^4.6.4"
+  },
+  "engines": {
+    "node": "^14.15 || ^16.13"
+  },
+  "devDependencies": {
+    "@preconstruct/cli": "^2.1.5",
+    "@preconstruct/hook": "^0.4.0",
+    "@preconstruct/next": "^4.0.0"
+  }
+}

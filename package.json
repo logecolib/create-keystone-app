@@ -15,9 +15,6 @@
     "@changesets/changelog-github": "^0.4.3",
     "@changesets/cli": "^2.21.1",
     "@manypkg/cli": "^0.19.1",
-    "@preconstruct/cli": "^2.1.5",
-    "@preconstruct/hook": "^0.4.0",
-    "@preconstruct/next": "^4.0.0",
     "@types/async-retry": "^1.4.3",
     "@types/fs-extra": "^9.0.13",
     "@types/jest": "^27.0.3",
@@ -46,5 +43,10 @@
     "packages": [
       "create-keystone-app"
     ]
+  },
+  "devDependencies": {
+    "@preconstruct/cli": "^2.1.5",
+    "@preconstruct/hook": "^0.4.0",
+    "@preconstruct/next": "^4.0.0"
   }
 }

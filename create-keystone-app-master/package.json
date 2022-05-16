@@ -1,6 +1,6 @@
 {
   "name": "create-keystone-app-master",
-  "version": "6.0.20",
+  "version": "6.0.21",
   "main": "dist/create-keystone-app-master.cjs.js",
   "files": [
     "dist",
@@ -12,6 +12,12 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.17.2",
+    "@keystone-6/auth": "^2.0.0",
+    "@keystone-6/cloudinary": "^2.0.0",
+    "@keystone-6/core": "^1.1.1",
+    "@keystone-6/document-renderer": "^1.0.0",
+    "@keystone-6/fields-document": "^2.0.1",
+    "@keystone-6/session-store-redis": "^2.0.0",
     "chalk": "^4.1.2",
     "enquirer": "^2.3.6",
     "execa": "^5.1.1",

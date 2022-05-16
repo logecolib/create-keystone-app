@@ -1,6 +1,6 @@
 {
   "name": "create-keystone-app-master",
-  "version": "6.0.21",
+  "version": "6.0.22",
   "main": "dist/create-keystone-app-master.cjs.js",
   "files": [
     "dist",
@@ -18,6 +18,8 @@
     "@keystone-6/document-renderer": "^1.0.0",
     "@keystone-6/fields-document": "^2.0.1",
     "@keystone-6/session-store-redis": "^2.0.0",
+    "@preconstruct/cli": "^2.1.5",
+    "@preconstruct/hook": "^0.4.0",
     "chalk": "^4.1.2",
     "enquirer": "^2.3.6",
     "execa": "^5.1.1",
